@@ -19,7 +19,6 @@ stackoverflow_username: "31226648"
 linkedin_username: "anjeli-pancholi"
 
 # About Section
-about_profile_image: "images/profile.jpg"  # Add your profile picture here later
 about_content: |
   My name is Anjeli Pancholi, and I've been passionate about computers since I was seven years old, when I first started playing video games with my brother.
   That early fascination sparked a lifelong interest in technology and set me on a path toward a career in computing.
@@ -28,6 +27,9 @@ about_content: |
   whether through forensic investigation, ethical hacking, or building tools that help keep people safe.
 
   ![Cybersecurity Image](https://focus.namirial.global/wp-content/uploads/sites/4/2023/06/ai-in-cybersecurity.jpeg)
+
+  **[Download my Resume (PDF)](https://anjihub.github.io/anjelipancholi.github.io/Resume_Anjeli_Pancholi.pdf)**
+
 
 content:
   - title: "Projects"
@@ -111,9 +113,9 @@ footer_show_references: true
 # Build settings
 remote_theme: "sproogen/modern-resume-theme"
 
-navigation:
-  - title: "Resume"
-    url: "/Resume_Anjeli_Pancholi.pdf"
+#navigation:
+ # - title: "Resume"
+  #  url: "/Resume_Anjeli_Pancholi.pdf"
 
 sass:
   sass_dir: "_sass"
