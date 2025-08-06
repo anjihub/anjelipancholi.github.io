@@ -26,6 +26,7 @@ about_content: |
   where I can combine my passion for justice and protecting others with my technical skills. I’m especially interested in using technology to support the greater good,
   whether through forensic investigation, ethical hacking, or building tools that help keep people safe.
 
+
   ![Cybersecurity Image](https://focus.namirial.global/wp-content/uploads/sites/4/2023/06/ai-in-cybersecurity.jpeg)
 
 
@@ -55,6 +56,7 @@ content:
           Short overview of the project (optional)
         description: |
           Description about the work on/with the project
+
 
   - title: "Experience"
     layout: "list"
