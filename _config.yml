@@ -113,7 +113,7 @@ remote_theme: "sproogen/modern-resume-theme"
 
 navigation:
   - title: "Resume"
-    url: "/Anjeli_Pancholi_Resume.pdf"
+    url: "/lib/Resume%20-%20Anjeli%20Pancholi.pdf"
 
 sass:
   sass_dir: "_sass"
