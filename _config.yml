@@ -9,9 +9,7 @@ version: 2
 name: "Anjeli Pancholi"
 title: "Aspiring Cybersecurity Professional"
 email: "apancholi2002@gmail.com"
-# email_title: Email (Email title override)
 phone: "(980) 435-1177"
-# phone_title: Phone (Phone title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -21,15 +19,8 @@ github_username: "anjihub"
 stackoverflow_username: "00000001"
 linkedin_username: Anjeli Pancholi
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: "Directory of profile image (eg. images/profile.jpg)"
+about_profile_image: "images/profile.jpg"  # Add your profile picture here later
 about_content: | # this will include new lines to allow paragraphs
   My name is Anjeli Pancholi, and I've been passionate about computers since I was seven years old, when I first started playing video games with my brother.
   That early fascination sparked a lifelong interest in technology and set me on a path toward a career in computing.
@@ -59,6 +50,7 @@ content:
           Short overview of the project (optional)
         description: |
           Description about the work on/with the project
+
   - title: "Experience"
     layout: "list"
     content:
@@ -70,6 +62,7 @@ content:
           Short description of the company (optional)
         description: |
           Description of role
+
   - title: "Education"
     layout: "list"
     content:
@@ -78,10 +71,42 @@ content:
         sub_title: "Associates in Information Technology: Cybersecurity"
         caption: "2024-2026"
 
+  - title: "Certifications & Skills"
+    layout: "list"
+    content:
+      - layout: "top-right"
+        title: "Cisco CCNA: Switching, Routing, and Wireless Essentials"
+        caption: "Issued May 2025"
+      - layout: "top-right"
+        title: "IT Specialist - Python (Certiport)"
+        caption: "Issued May 2025"
+      - layout: "top-right"
+        title: "Cisco CCNA: Introduction to Networks"
+        caption: "Issued March 2025"
+      - layout: "top-right"
+        title: "LinkedIn Learning Certificates"
+        description: |
+          - Change Management Foundations  
+          - DevOps Foundations  
+          - Diversity, Equity, Inclusion, and Belonging (DEIB)  
+          - IT Service Management Foundations: Problem Management  
+          - Agile Foundations  
+          - Conflict Management  
+          - Git Essential Training  
+          - Learning Computer Security and Internet Safety  
+          - Learning Git and GitHub  
+      - layout: "top-right"
+        title: "Skills Summary"
+        description: |
+          - Proficient in Python programming and IT scripting  
+          - Experienced with Git and GitHub version control  
+          - Strong knowledge of networking fundamentals (CCNA certified)  
+          - Microsoft Office certified; fast and accurate typing skills  
+          - Skilled with document and image editing software such as paint.net  
+          - Familiar with Agile and Waterfall project development methodologies
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: "sproogen/modern-resume-theme"
@@ -108,3 +133,4 @@ exclude:
   - "lib/"
   - "scripts/"
   - "docker-compose.yml"
+
