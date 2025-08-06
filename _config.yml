@@ -74,47 +74,47 @@ content:
         description: |
           Description of role
 
- - title: "Education"
-  layout: "list"
-  content:
-    - layout: "left"
-      title: "Wake Technical Community College"
-      sub_title: "Associates in Information Technology: Cybersecurity"
-      caption: "2024-2026"
-    - layout: "left"
-      title: "Central Piedmont Community College"
-      sub_title: "General Courses & Nurse Aid I Certification"
-      caption: "2021-2023"
+  - title: "Education"
+    layout: "list"
+    content:
+      - layout: "left"
+        title: "Wake Technical Community College"
+        sub_title: "Associates in Information Technology: Cybersecurity"
+        caption: "2024-2026"
+      - layout: "left"
+        title: "Central Piedmont Community College"
+        sub_title: "General Courses & Nurse Aid I Certification"
+        caption: "2021-2023"
 
-- title: "Certifications"
-  layout: "list"
-  content:
-    - layout: "left"
-      title: "Cisco CCNA: Switching, Routing, and Wireless Essentials"
-      caption: "Issued May 2025"
-    - layout: "left"
-      title: "IT Specialist - Python (Certiport)"
-      caption: "Issued May 2025"
-    - layout: "left"
-      title: "Cisco CCNA: Introduction to Networks"
-      caption: "Issued March 2025"
-    - layout: "left"
-      title: "LinkedIn Learning Certificates"
-      description: |
-        - Change Management Foundations  
-        - DevOps Foundations  
-        - Diversity, Equity, Inclusion, and Belonging (DEIB)  
-        - IT Service Management Foundations: Problem Management  
-        - Agile Foundations  
-        - Conflict Management  
-        - Git Essential Training  
-        - Learning Computer Security and Internet Safety  
-        - Learning Git and GitHub  
+  - title: "Certifications"
+    layout: "list"
+    content:
+      - layout: "left"
+        title: "Cisco CCNA: Switching, Routing, and Wireless Essentials"
+        caption: "Issued May 2025"
+      - layout: "left"
+        title: "IT Specialist - Python (Certiport)"
+        caption: "Issued May 2025"
+      - layout: "left"
+        title: "Cisco CCNA: Introduction to Networks"
+        caption: "Issued March 2025"
+      - layout: "left"
+        title: "LinkedIn Learning Certificates"
+        description: |
+          - Change Management Foundations  
+          - DevOps Foundations  
+          - Diversity, Equity, Inclusion, and Belonging (DEIB)  
+          - IT Service Management Foundations: Problem Management  
+          - Agile Foundations  
+          - Conflict Management  
+          - Git Essential Training  
+          - Learning Computer Security and Internet Safety  
+          - Learning Git and GitHub  
 
   - title: "Skills & Technologies"
     layout: "list"
     content:
-      - layout: "top-right"
+      - layout: "left"
         title: "Skills Summary"
         description: |
           - Python  
