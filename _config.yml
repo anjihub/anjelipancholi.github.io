@@ -6,41 +6,20 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Anjeli Pancholi
+title: Aspiring Cybersecurity Professional
+email: apancholi2002@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: (980) 435-1177
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  anjihub
 stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
-
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+linkedin_username: Anjeli Pancholi
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -52,13 +31,13 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  My name is Anjeli Pancholi, and I've been passionate about computers since I was seven years old, when I first started playing video games with my brother.
+  That early fascination sparked a lifelong interest in technology and set me on a path toward a career in computing.
+  I'm currently studying computer science with a focus on cybersecurity and digital forensics. My goal is to work in cybersecurity within law enforcement,
+  where I can combine my passion for justice and protecting others with my technical skills. I’m especially interested in using technology to support the greater good,
+  whether through forensic investigation, ethical hacking, or building tools that help keep people safe.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  ![Cybersecurity Image](https://focus.namirial.global/wp-content/uploads/sites/4/2023/06/ai-in-cybersecurity.jpeg)
 
 content:
   - title: Projects # Title for the section
