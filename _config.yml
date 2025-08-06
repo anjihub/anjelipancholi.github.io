@@ -10,7 +10,7 @@ title: "Aspiring Cybersecurity Professional"
 email: "apancholi2002@gmail.com"
 phone: "9804351177"
 
-# Dark Mode (true/false/never)
+# Dark Mode (true/false/never) - enable toggle
 darkmode: true
 
 # Social links
@@ -20,12 +20,10 @@ linkedin_username: "anjeli-pancholi"
 
 # About Section
 about_content: |
-  I’m Anjeli Pancholi — a passionate and detail-oriented cybersecurity student focused on digital forensics and cybercrime investigation.  
-  With a strong foundation in IT and a drive to support law enforcement and ethical cybersecurity practices,  
-  I aim to contribute to protecting data, networks, and people in the digital world.  
-  I'm particularly interested in forensic analysis, ethical hacking, and the intersection of cybersecurity with justice and safety.  
-
-  ![Cybersecurity Image](https://focus.namirial.global/wp-content/uploads/sites/4/2023/06/ai-in-cybersecurity.jpeg){: style="width:100%; max-width:600px; margin-top: 20px; margin-bottom: 40px;" }
+  I am Anjeli Pancholi, a dedicated computer science student specializing in cybersecurity and digital forensics.  
+  My passion for technology began at an early age and has driven me to pursue a career focused on protecting digital assets and supporting law enforcement efforts.  
+  I aim to leverage my technical expertise to contribute to cybersecurity initiatives, with a strong commitment to ethical practices and public safety.  
+  I am particularly interested in forensic analysis, ethical hacking, and developing innovative tools to safeguard information and infrastructure.
 
 content:
   - title: "Resume"
@@ -45,7 +43,7 @@ content:
         description: |
           I regularly share insights and updates about cybersecurity, tech trends, and career development.  
           Check out my blog here:  
-          [My Blog](https://yourblogurl.com)  
+          [My Blog](https://yourblogurl.com)
 
   - title: "Projects"
     layout: "list"
@@ -53,10 +51,10 @@ content:
       - layout: "left"
         border: "weak"
         title: "Project name"
-        link: "Link to project (e.g., https://sproogen.github.io/modern-resume-theme)"
+        link: "Link to project (eg. sproogen.github.io/modern-resume-theme)"
         link_text: "Link Text"
         additional_links:
-          - title: "GitHub page for project"
+          - title: "Github page for project"
             icon: "fab fa-github"
             url: "https://github.com/anjihub"
         quote: >
@@ -70,7 +68,7 @@ content:
       - layout: "left"
         title: "Company name"
         sub_title: "Job title"
-        caption: "Date Range (e.g., November 2016 - Present)"
+        caption: "Date Range (eg. November 2016 - present)"
         quote: >
           Short description of the company (optional)
         description: |
@@ -82,11 +80,11 @@ content:
       - layout: "top-right"
         title: "Wake Technical Community College"
         sub_title: "Associates in Information Technology: Cybersecurity"
-        caption: "2024–2026"
+        caption: "2024-2026"
       - layout: "top-right"
         title: "Central Piedmont Community College"
         sub_title: "General Courses & Nurse Aid I Certification"
-        caption: "2021–2023"
+        caption: "2021-2023"
 
   - title: "Certifications"
     layout: "list"
@@ -150,7 +148,7 @@ exclude:
   - "scripts/"
   - "docker-compose.yml"
 
-# Custom CSS for Resume Button
+# Custom CSS for resume button
 custom_css: |
   .btn {
     background-color: #007ACC;
