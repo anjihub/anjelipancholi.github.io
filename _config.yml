@@ -18,15 +18,16 @@ github_username: "anjihub"
 stackoverflow_username: "31226648"
 linkedin_username: "anjeli-pancholi"
 
-# About Section with profile pic & image optimized with width
+# About Section with profile pic & spacing before image
 about_content: |
   ![Profile Picture](images/profile.jpg){: style="width:150px; border-radius:50%; margin-bottom: 20px;" }
 
-  My name is Anjeli Pancholi, and I've been passionate about computers since I was seven years old, when I first started playing video games with my brother.
-  That early fascination sparked a lifelong interest in technology and set me on a path toward a career in computing.
-  I'm currently studying computer science with a focus on cybersecurity and digital forensics. My goal is to work in cybersecurity within law enforcement,
-  where I can combine my passion for justice and protecting others with my technical skills. I’m especially interested in using technology to support the greater good,
-  whether through forensic investigation, ethical hacking, or building tools that help keep people safe.
+  I am Anjeli Pancholi, a dedicated computer science student specializing in cybersecurity and digital forensics.  
+  My passion for technology began at an early age and has driven me to pursue a career focused on protecting digital assets and supporting law enforcement efforts.  
+  I aim to leverage my technical expertise to contribute to cybersecurity initiatives, with a strong commitment to ethical practices and public safety.  
+  I am particularly interested in forensic analysis, ethical hacking, and developing innovative tools to safeguard information and infrastructure.
+
+  # <-- this blank line creates vertical spacing before the image
 
   ![Cybersecurity Image](https://focus.namirial.global/wp-content/uploads/sites/4/2023/06/ai-in-cybersecurity.jpeg){: style="width:100%; max-width:600px; margin-top: 20px; margin-bottom: 40px;" }
 
@@ -37,7 +38,18 @@ content:
       - layout: "left"
         title: "Download My Resume"
         description: |
-          <a href="https://anjihub.github.io/anjelipancholi.github.io/Resume_Anjeli_Pancholi.pdf" class="btn" target="_blank" rel="noopener noreferrer">Download Resume PDF</a>
+          You can download my resume here:  
+          [Resume PDF](https://anjihub.github.io/anjelipancholi.github.io/Resume_Anjeli_Pancholi.pdf)
+
+  - title: "Blog"
+    layout: "list"
+    content:
+      - layout: "left"
+        title: "Visit My Blog"
+        description: |
+          I regularly share insights and updates about cybersecurity, tech trends, and career development.  
+          Check out my blog here:  
+          [My Blog](https://yourblogurl.com)
 
   - title: "Projects"
     layout: "list"
