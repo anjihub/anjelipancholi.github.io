@@ -4,7 +4,6 @@ repository: "anjihub/anjelipancholi.github.io"
 # Content configuration version
 version: 2
 
-
 # Personal info
 name: "Anjeli Pancholi"
 title: "Aspiring Cybersecurity Professional"
@@ -17,11 +16,11 @@ darkmode: false
 # Social links
 github_username: "anjihub"
 stackoverflow_username: "31226648"
-linkedin_username: Anjeli Pancholi
+linkedin_username: "Anjeli Pancholi"
 
 # About Section
-about_profile_image: "images/profile.jpg"  # Add your profile picture here later
-about_content: | # this will include new lines to allow paragraphs
+about_profile_image: "images/profile.jpg"
+about_content: |
   My name is Anjeli Pancholi, and I've been passionate about computers since I was seven years old, when I first started playing video games with my brother.
   That early fascination sparked a lifelong interest in technology and set me on a path toward a career in computing.
   I'm currently studying computer science with a focus on cybersecurity and digital forensics. My goal is to work in cybersecurity within law enforcement,
@@ -63,17 +62,17 @@ content:
         description: |
           Description of role
 
-- title: "Education"
-  layout: "list"
-  content:
-    - layout: "top-right"
-      title: "Wake Technical Community College"
-      sub_title: "Associates in Information Technology: Cybersecurity"
-      caption: "2024-2026"
-    - layout: "top-right"
-      title: "Central Piedmont Community College"
-      sub_title: "General Courses & Nurse Aid I Certification"
-      caption: "2021-2023"
+  - title: "Education"
+    layout: "list"
+    content:
+      - layout: "top-right"
+        title: "Wake Technical Community College"
+        sub_title: "Associates in Information Technology: Cybersecurity"
+        caption: "2024-2026"
+      - layout: "top-right"
+        title: "Central Piedmont Community College"
+        sub_title: "General Courses & Nurse Aid I Certification"
+        caption: "2021-2023"
 
   - title: "Certifications & Skills"
     layout: "list"
@@ -83,58 +82,4 @@ content:
         caption: "Issued May 2025"
       - layout: "top-right"
         title: "IT Specialist - Python (Certiport)"
-        caption: "Issued May 2025"
-      - layout: "top-right"
-        title: "Cisco CCNA: Introduction to Networks"
-        caption: "Issued March 2025"
-      - layout: "top-right"
-        title: "LinkedIn Learning Certificates"
-        description: |
-          - Change Management Foundations  
-          - DevOps Foundations  
-          - Diversity, Equity, Inclusion, and Belonging (DEIB)  
-          - IT Service Management Foundations: Problem Management  
-          - Agile Foundations  
-          - Conflict Management  
-          - Git Essential Training  
-          - Learning Computer Security and Internet Safety  
-          - Learning Git and GitHub  
-      - layout: "top-right"
-        title: "Skills Summary"
-        description: |
-          - Proficient in Python programming and IT scripting  
-          - Experienced with Git and GitHub version control  
-          - Strong knowledge of networking fundamentals (CCNA certified)  
-          - Microsoft Office certified; fast and accurate typing skills  
-          - Skilled with document and image editing software such as paint.net  
-          - Familiar with Agile and Waterfall project development methodologies
-
-# Footer
-footer_show_references: true
-
-# Build settings
-remote_theme: "sproogen/modern-resume-theme"
-
-navigation:
-  - title: "Resume"
-    url: "/Anjeli_Pancholi_Resume.pdf"
-
-sass:
-  sass_dir: "_sass"
-  style: "compressed"
-
-plugins:
-  - jekyll-seo-tag
-
-exclude:
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "node_modules"
-  - "vendor/bundle/"
-  - "vendor/cache/"
-  - "vendor/gems/"
-  - "vendor/ruby/"
-  - "lib/"
-  - "scripts/"
-  - "docker-compose.yml"
-
+        caption: "Issued May
