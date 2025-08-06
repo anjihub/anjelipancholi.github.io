@@ -81,10 +81,15 @@ content:
         title: "Wake Technical Community College"
         sub_title: "Associates in Information Technology: Cybersecurity"
         caption: "2024-2026"
+        description: |
+          Pursuing a comprehensive curriculum focused on cybersecurity principles, network security, ethical hacking, and digital forensics. Gaining hands-on experience with security tools and techniques to protect information systems and respond to cyber threats.
+
       - layout: "left"
         title: "Central Piedmont Community College"
         sub_title: "General Courses & Nurse Aid I Certification"
         caption: "2021-2023"
+        description: |
+          Completed foundational coursework to support further technical education and professional development. Earned Nurse Aid I Certification, demonstrating commitment to disciplined study and care-oriented skills alongside technical interests.
 
   - title: "Certifications"
     layout: "list"
