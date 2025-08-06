@@ -16,10 +16,10 @@ darkmode: false
 # Social links
 github_username: "anjihub"
 stackoverflow_username: "31226648"
-linkedin_username: "Anjeli Pancholi"
+linkedin_username: "anjeli-pancholi"
 
 # About Section
-about_profile_image: "images/profile.jpg"
+about_profile_image: "images/profile.jpg"  # Add your profile picture here later
 about_content: |
   My name is Anjeli Pancholi, and I've been passionate about computers since I was seven years old, when I first started playing video games with my brother.
   That early fascination sparked a lifelong interest in technology and set me on a path toward a career in computing.
@@ -36,15 +36,12 @@ content:
       - layout: "left"
         border: "weak"
         title: "Project name"
-        link: "Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)"
+        link: "Link to project (eg. sproogen.github.io/modern-resume-theme)"
         link_text: "Link Text"
         additional_links:
-          - title: "Github page for project (eg. sproogen/modern-resume-theme)"
+          - title: "Github page for project"
             icon: "fab fa-github"
-            url: "Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)"
-          - title: "Github page for project (eg. sproogen/modern-resume-theme)"
-            icon: "fab fa-github"
-            url: "Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)"
+            url: "https://github.com/anjihub"
         quote: >
           Short overview of the project (optional)
         description: |
@@ -82,4 +79,57 @@ content:
         caption: "Issued May 2025"
       - layout: "top-right"
         title: "IT Specialist - Python (Certiport)"
-        caption: "Issued May
+        caption: "Issued May 2025"
+      - layout: "top-right"
+        title: "Cisco CCNA: Introduction to Networks"
+        caption: "Issued March 2025"
+      - layout: "top-right"
+        title: "LinkedIn Learning Certificates"
+        description: |
+          - Change Management Foundations  
+          - DevOps Foundations  
+          - Diversity, Equity, Inclusion, and Belonging (DEIB)  
+          - IT Service Management Foundations: Problem Management  
+          - Agile Foundations  
+          - Conflict Management  
+          - Git Essential Training  
+          - Learning Computer Security and Internet Safety  
+          - Learning Git and GitHub  
+      - layout: "top-right"
+        title: "Skills Summary"
+        description: |
+          - Proficient in Python programming and IT scripting  
+          - Experienced with Git and GitHub version control  
+          - Strong knowledge of networking fundamentals (CCNA certified)  
+          - Microsoft Office certified; fast and accurate typing skills  
+          - Skilled with document and image editing software such as paint.net  
+          - Familiar with Agile and Waterfall project development methodologies
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: "sproogen/modern-resume-theme"
+
+navigation:
+  - title: "Resume"
+    url: "/Anjeli_Pancholi_Resume.pdf"
+
+sass:
+  sass_dir: "_sass"
+  style: "compressed"
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+  - "lib/"
+  - "scripts/"
+  - "docker-compose.yml"
