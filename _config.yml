@@ -7,8 +7,8 @@ version: 2
 # Personal info
 name: "Anjeli Pancholi"
 title: "Aspiring Cybersecurity Professional"
-email: "mailto:apancholi2002@gmail.com"
-phone: "tel:+19804351177"
+email: "apancholi2002@gmail.com"
+phone: "9804351177"
 
 # Dark Mode (true/false/never) - enable toggle
 darkmode: true
@@ -20,14 +20,13 @@ linkedin_username: "anjeli-pancholi"
 
 # About Section with profile pic & spacing before image
 about_content: |
-  ![Profile Picture](images/profile.jpg){: style="width:150px; border-radius:50%; margin-bottom: 20px;" }
 
   I am Anjeli Pancholi, a dedicated computer science student specializing in cybersecurity and digital forensics.  
   My passion for technology began at an early age and has driven me to pursue a career focused on protecting digital assets and supporting law enforcement efforts.  
   I aim to leverage my technical expertise to contribute to cybersecurity initiatives, with a strong commitment to ethical practices and public safety.  
   I am particularly interested in forensic analysis, ethical hacking, and developing innovative tools to safeguard information and infrastructure.
 
-  # <-- this blank line creates vertical spacing before the image
+|
 
   ![Cybersecurity Image](https://focus.namirial.global/wp-content/uploads/sites/4/2023/06/ai-in-cybersecurity.jpeg){: style="width:100%; max-width:600px; margin-top: 20px; margin-bottom: 40px;" }
 
@@ -128,14 +127,6 @@ content:
           - Cisco  
           - JavaScript  
           - HTML  
-
-  - title: "Blog"
-    layout: "list"
-    content:
-      - layout: "left"
-        title: "Latest Articles"
-        description: |
-          Coming soon — stay tuned for posts about cybersecurity, coding, and tech insights!
 
 # Footer
 footer_show_references: true
