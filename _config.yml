@@ -92,24 +92,21 @@ content:
       - layout: "left"
         title: "Cisco CCNA: Switching, Routing, and Wireless Essentials"
         caption: "Issued May 2025"
-        description: |
-          Mastered foundational networking concepts including switching, routing, and wireless technologies essential for building and managing enterprise networks.
+        quote: "Mastered foundational networking concepts including switching, routing, and wireless technologies essential for building and managing enterprise networks."
 
       - layout: "left"
         title: "IT Specialist - Python (Certiport)"
         caption: "Issued May 2025"
-        description: |
-          Demonstrated proficiency in Python programming for automation, scripting, and problem-solving within IT environments.
+        quote: "Demonstrated proficiency in Python programming for automation, scripting, and problem-solving within IT environments."
 
       - layout: "left"
         title: "Cisco CCNA: Introduction to Networks"
         caption: "Issued March 2025"
-        description: |
-          Gained fundamental knowledge of networking principles, protocols, and architectures, laying the groundwork for advanced networking skills.
+        quote: "Gained fundamental knowledge of networking principles, protocols, and architectures, laying the groundwork for advanced networking skills."
 
       - layout: "left"
         title: "LinkedIn Learning Certificates"
-        description: |
+        quote: |
           - Change Management Foundations  
           - DevOps Foundations  
           - Diversity, Equity, Inclusion, and Belonging (DEIB)  
@@ -157,7 +154,7 @@ exclude:
   - "scripts/"
   - "docker-compose.yml"
 
-# Custom CSS for resume button and left alignment
+# Custom CSS for resume button and left align certs + education
 custom_css: |
   .btn {
     background-color: #007ACC;
@@ -171,10 +168,11 @@ custom_css: |
     background-color: #005A99;
   }
 
-  /* Force left alignment for Education and Certifications */
+  /* Left align Education and Certifications */
   section.education, section.certifications {
     text-align: left !important;
   }
+
   section.education .content,
   section.certifications .content {
     text-align: left !important;
