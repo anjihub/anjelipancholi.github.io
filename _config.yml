@@ -92,21 +92,21 @@ content:
       - layout: "left"
         title: "Cisco CCNA: Switching, Routing, and Wireless Essentials"
         caption: "Issued May 2025"
-        quote: "Mastered foundational networking concepts including switching, routing, and wireless technologies essential for building and managing enterprise networks."
+        description: "Mastered foundational networking concepts including switching, routing, and wireless technologies essential for building and managing enterprise networks."
 
       - layout: "left"
         title: "IT Specialist - Python (Certiport)"
         caption: "Issued May 2025"
-        quote: "Demonstrated proficiency in Python programming for automation, scripting, and problem-solving within IT environments."
+        description: "Demonstrated proficiency in Python programming for automation, scripting, and problem-solving within IT environments."
 
       - layout: "left"
         title: "Cisco CCNA: Introduction to Networks"
         caption: "Issued March 2025"
-        quote: "Gained fundamental knowledge of networking principles, protocols, and architectures, laying the groundwork for advanced networking skills."
+        description: "Gained fundamental knowledge of networking principles, protocols, and architectures, laying the groundwork for advanced networking skills."
 
       - layout: "left"
         title: "LinkedIn Learning Certificates"
-        quote: |
+        description: |
           - Change Management Foundations  
           - DevOps Foundations  
           - Diversity, Equity, Inclusion, and Belonging (DEIB)  
@@ -156,31 +156,31 @@ exclude:
 
 # Custom CSS for resume button and left align certs + education
 custom_css: |
-.btn {
-  background-color: #007ACC;
-  color: white !important;
-  padding: 10px 18px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
-}
-.btn:hover {
-  background-color: #005A99;
-}
+  .btn {
+    background-color: #007ACC;
+    color: white !important;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .btn:hover {
+    background-color: #005A99;
+  }
 
-/* Left align Education and Certifications */
-section.education, section.certifications {
-  text-align: left !important;
-}
-section.education .content,
-section.certifications .content {
-  text-align: left !important;
-}
+  /* Left align Education and Certifications */
+  section.education, section.certifications {
+    text-align: left !important;
+  }
+  section.education .content,
+  section.certifications .content {
+    text-align: left !important;
+  }
 
-/* Show descriptions properly under certifications */
-section.certifications .content > div > p {
-  margin-top: 0.4em;
-  margin-bottom: 1em;
-  font-size: 0.95em;
-  color: #444;
-}
+  /* Show descriptions properly under certifications */
+  section.certifications .content > div > p {
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+    font-size: 0.95em;
+    color: #444;
+  }
