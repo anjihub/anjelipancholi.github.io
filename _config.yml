@@ -28,10 +28,17 @@ about_content: |
 
   ![Cybersecurity Image](https://focus.namirial.global/wp-content/uploads/sites/4/2023/06/ai-in-cybersecurity.jpeg)
 
-  **[Download my Resume (PDF)](https://anjihub.github.io/anjelipancholi.github.io/Resume_Anjeli_Pancholi.pdf)**
-
 
 content:
+  - title: "Resume"
+    layout: "list"
+    content:
+      - layout: "left"
+        title: "Download My Resume"
+        description: |
+          You can download my resume here:  
+          [Resume PDF](https://anjihub.github.io/anjelipancholi.github.io/Resume_Anjeli_Pancholi.pdf)
+
   - title: "Projects"
     layout: "list"
     content:
@@ -106,6 +113,7 @@ content:
           - Microsoft Office certified; fast and accurate typing skills  
           - Skilled with document and image editing software such as paint.net  
           - Familiar with Agile and Waterfall project development methodologies
+
 
 # Footer
 footer_show_references: true
