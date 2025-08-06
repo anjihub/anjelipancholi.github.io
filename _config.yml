@@ -16,7 +16,7 @@ darkmode: false
 
 # Social links
 github_username: "anjihub"
-stackoverflow_username: "00000001"
+stackoverflow_username: "31226648"
 linkedin_username: Anjeli Pancholi
 
 # About Section
@@ -63,13 +63,17 @@ content:
         description: |
           Description of role
 
-  - title: "Education"
-    layout: "list"
-    content:
-      - layout: "top-right"
-        title: "Wake Technical Community College"
-        sub_title: "Associates in Information Technology: Cybersecurity"
-        caption: "2024-2026"
+- title: "Education"
+  layout: "list"
+  content:
+    - layout: "top-right"
+      title: "Wake Technical Community College"
+      sub_title: "Associates in Information Technology: Cybersecurity"
+      caption: "2024-2026"
+    - layout: "top-right"
+      title: "Central Piedmont Community College"
+      sub_title: "General Courses & Nurse Aid I Certification"
+      caption: "2021-2023"
 
   - title: "Certifications & Skills"
     layout: "list"
