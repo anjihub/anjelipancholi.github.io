@@ -7,28 +7,28 @@ version: 2
 # Personal info
 name: "Anjeli Pancholi"
 title: "Aspiring Cybersecurity Professional"
-email: "apancholi2002@gmail.com"
-phone: "(980) 435-1177"
+email: "mailto:apancholi2002@gmail.com"
+phone: "tel:+19804351177"
 
-# Dark Mode (true/false/never)
-darkmode: false
+# Dark Mode (true/false/never) - enable toggle
+darkmode: true
 
 # Social links
 github_username: "anjihub"
 stackoverflow_username: "31226648"
 linkedin_username: "anjeli-pancholi"
 
-# About Section
+# About Section with profile pic & image optimized with width
 about_content: |
+  ![Profile Picture](images/profile.jpg){: style="width:150px; border-radius:50%; margin-bottom: 20px;" }
+
   My name is Anjeli Pancholi, and I've been passionate about computers since I was seven years old, when I first started playing video games with my brother.
   That early fascination sparked a lifelong interest in technology and set me on a path toward a career in computing.
   I'm currently studying computer science with a focus on cybersecurity and digital forensics. My goal is to work in cybersecurity within law enforcement,
   where I can combine my passion for justice and protecting others with my technical skills. I’m especially interested in using technology to support the greater good,
   whether through forensic investigation, ethical hacking, or building tools that help keep people safe.
 
-
-  ![Cybersecurity Image](https://focus.namirial.global/wp-content/uploads/sites/4/2023/06/ai-in-cybersecurity.jpeg)
-
+  ![Cybersecurity Image](https://focus.namirial.global/wp-content/uploads/sites/4/2023/06/ai-in-cybersecurity.jpeg){: style="width:100%; max-width:600px; margin-top: 20px; margin-bottom: 40px;" }
 
 content:
   - title: "Resume"
@@ -37,8 +37,7 @@ content:
       - layout: "left"
         title: "Download My Resume"
         description: |
-          You can download my resume here:  
-          [Resume PDF](https://anjihub.github.io/anjelipancholi.github.io/Resume_Anjeli_Pancholi.pdf)
+          <a href="https://anjihub.github.io/anjelipancholi.github.io/Resume_Anjeli_Pancholi.pdf" class="btn" target="_blank" rel="noopener noreferrer">Download Resume PDF</a>
 
   - title: "Projects"
     layout: "list"
@@ -57,11 +56,10 @@ content:
         description: |
           Description about the work on/with the project
 
-
   - title: "Experience"
     layout: "list"
     content:
-      - layout: "right"
+      - layout: "left"
         title: "Company name"
         sub_title: "Job title"
         caption: "Date Range (eg. November 2016 - present)"
@@ -82,7 +80,7 @@ content:
         sub_title: "General Courses & Nurse Aid I Certification"
         caption: "2021-2023"
 
-  - title: "Certifications & Skills"
+  - title: "Certifications"
     layout: "list"
     content:
       - layout: "top-right"
@@ -106,26 +104,32 @@ content:
           - Git Essential Training  
           - Learning Computer Security and Internet Safety  
           - Learning Git and GitHub  
+
+  - title: "Skills & Technologies"
+    layout: "list"
+    content:
       - layout: "top-right"
         title: "Skills Summary"
         description: |
-          - Proficient in Python programming and IT scripting  
-          - Experienced with Git and GitHub version control  
-          - Strong knowledge of networking fundamentals (CCNA certified)  
-          - Microsoft Office certified; fast and accurate typing skills  
-          - Skilled with document and image editing software such as paint.net  
-          - Familiar with Agile and Waterfall project development methodologies
+          - Python  
+          - Git  
+          - Cisco  
+          - JavaScript  
+          - HTML  
 
+  - title: "Blog"
+    layout: "list"
+    content:
+      - layout: "left"
+        title: "Latest Articles"
+        description: |
+          Coming soon — stay tuned for posts about cybersecurity, coding, and tech insights!
 
 # Footer
 footer_show_references: true
 
 # Build settings
 remote_theme: "sproogen/modern-resume-theme"
-
-#navigation:
- # - title: "Resume"
-  #  url: "/Resume_Anjeli_Pancholi.pdf"
 
 sass:
   sass_dir: "_sass"
@@ -145,3 +149,17 @@ exclude:
   - "lib/"
   - "scripts/"
   - "docker-compose.yml"
+
+# Custom CSS for resume button
+custom_css: |
+  .btn {
+    background-color: #007ACC;
+    color: white !important;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .btn:hover {
+    background-color: #005A99;
+  }
