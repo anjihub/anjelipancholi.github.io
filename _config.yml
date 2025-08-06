@@ -161,3 +161,13 @@ custom_css: |
   .btn:hover {
     background-color: #005A99;
   }
+
+  /* Add these lines to fix left alignment */
+  section.education, section.certifications {
+    text-align: left !important;
+  }
+
+  section.education .content,
+  section.certifications .content {
+    text-align: left !important;
+  }
