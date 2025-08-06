@@ -40,11 +40,11 @@ about_content: | # this will include new lines to allow paragraphs
   ![Cybersecurity Image](https://focus.namirial.global/wp-content/uploads/sites/4/2023/06/ai-in-cybersecurity.jpeg)
 
 content:
-  - title: "Projects" # Title for the section
-    layout: "list" # Type of content section (list/text)
+  - title: "Projects"
+    layout: "list"
     content:
       - layout: "left"
-        border: "weak"  # Value of `weak` will display a weak border below this item.
+        border: "weak"
         title: "Project name"
         link: "Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)"
         link_text: "Link Text"
@@ -57,7 +57,7 @@ content:
             url: "Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)"
         quote: >
           Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Description about the work on/with the project
   - title: "Experience"
     layout: "list"
@@ -68,15 +68,16 @@ content:
         caption: "Date Range (eg. November 2016 - present)"
         quote: >
           Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Description of role
   - title: "Education"
     layout: "list"
     content:
       - layout: "top-right"
         title: "Wake Technical Community College"
-        sub_title: "Associates in Information Technology: Cybersecurity"https://github.com/anjihub/anjelipancholi.github.io/blob/master/_config.yml
+        sub_title: "Associates in Information Technology: Cybersecurity"
         caption: "2024-2026"
+
 
 # Footer
 footer_show_references: true
