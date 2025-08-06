@@ -85,12 +85,12 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-theme: modern-resume-theme
 remote_theme: sproogen/modern-resume-theme
 
-- title: "Resume"
-  url: "/Anjeli_Pancholi_Resume.pdf"
-  
+navigation:
+  - title: "Resume"
+    url: "/Anjeli_Pancholi_Resume.pdf"
+
 sass:
   sass_dir: _sass
   style: compressed
@@ -109,4 +109,4 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  ]
+]
