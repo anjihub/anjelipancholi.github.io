@@ -32,8 +32,9 @@ content:
       - layout: "left"
         title: "Download My Resume"
         description: |
-          You can download my resume here:  
-          [Resume PDF](https://anjihub.github.io/anjelipancholi.github.io/Resume_Anjeli_Pancholi.pdf)
+          You can download my resume here:
+        link: "https://anjihub.github.io/anjelipancholi.github.io/Resume_Anjeli_Pancholi.pdf"
+        link_text: "Resume PDF"
 
   - title: "Blog"
     layout: "list"
@@ -41,9 +42,7 @@ content:
       - layout: "left"
         title: "Visit My Blog"
         description: |
-          Welcome to my cybersecurity blog. I’m Anjeli Pancholi, an aspiring digital forensics analyst and cybersecurity student currently pursuing my associate’s degree.  
-          This blog is my space to document everything I’m learning — from hands-on projects and certifications to technical breakdowns and reflections on my journey into the world of information security.  
-          Whether you're a fellow student, a recruiter, or someone curious about cybersecurity, I hope you find something valuable here:
+          Welcome to my cybersecurity blog where I share projects, certifications, and insights.
         link: "https://anjeli.hashnode.dev/"
         link_text: "My Blog"
 
