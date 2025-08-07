@@ -43,9 +43,9 @@ content:
         description: |
           Welcome to my cybersecurity blog. I’m Anjeli Pancholi, an aspiring digital forensics analyst and cybersecurity student currently pursuing my associate’s degree.  
           This blog is my space to document everything I’m learning — from hands-on projects and certifications to technical breakdowns and reflections on my journey into the world of information security.  
-          Whether you're a fellow student, a recruiter, or someone curious about cybersecurity, I hope you find something valuable here:  
-
-          [My Blog](https://anjeli.hashnode.dev/)
+          Whether you're a fellow student, a recruiter, or someone curious about cybersecurity, I hope you find something valuable here:
+        link: "https://anjeli.hashnode.dev/"
+        link_text: "My Blog"
 
   - title: "Projects"
     layout: "list"
