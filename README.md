@@ -9,5 +9,5 @@ https://anjihub.github.io/anjelipancholi.github.io/
 
 Feel free to connect with me:  
 - LinkedIn: https://www.linkedin.com/in/anjeli-pancholi-11280b272/  
-- GitHub: https://github.com/anjihub  
 - Blog: https://anjeli.hashnode.dev/
+- Email: apancholi2002@gmail.com
