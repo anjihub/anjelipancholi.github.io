@@ -50,17 +50,18 @@ content:
     content:
       - layout: "left"
         border: "weak"
-        title: "Project name"
-        link: "Link to project (eg. sproogen.github.io/modern-resume-theme)"
-        link_text: "Link Text"
+        title: "Learning to utilize Mermaid Diagrams"
+        link: "https://github.com/anjihub/mermaid-diagram"
+        link_text: "View Project on GitHub"
         additional_links:
           - title: "Github page for project"
             icon: "fab fa-github"
             url: "https://github.com/anjihub"
         quote: >
-          Short overview of the project (optional)
+          Visualizing network security attack flows with Mermaid diagrams to simplify complex concepts.
         description: |
-          Description about the work on/with the project
+          This project uses Mermaid, a markdown-friendly diagram tool, to create clear and concise sequence diagrams illustrating a botnet attack scenario.
+          It helped me practice representing cybersecurity processes visually and enhanced my understanding of attack-defense interactions.
 
   - title: "Experience"
     layout: "list"
