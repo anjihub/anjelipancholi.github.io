@@ -32,9 +32,8 @@ content:
       - layout: "left"
         title: "Download My Resume"
         description: |
-          You can download my resume here:
-        link: "https://anjihub.github.io/anjelipancholi.github.io/Resume_Anjeli_Pancholi.pdf"
-        link_text: "Resume PDF"
+          You can download my resume here:  
+          [Resume PDF](https://anjihub.github.io/anjelipancholi.github.io/Resume_Anjeli_Pancholi.pdf)
 
   - title: "Blog"
     layout: "list"
@@ -42,9 +41,9 @@ content:
       - layout: "left"
         title: "Visit My Blog"
         description: |
-          Welcome to my cybersecurity blog where I share projects, certifications, and insights.
-        link: "https://anjeli.hashnode.dev/"
-        link_text: "My Blog"
+          Welcome to my cybersecurity blog where I share projects, certifications, and insights.  
+          Whether you're a fellow student, a recruiter, or just curious about cybersecurity, I hope you find something valuable here:  
+          [My Blog](https://anjeli.hashnode.dev/)
 
   - title: "Projects"
     layout: "list"
