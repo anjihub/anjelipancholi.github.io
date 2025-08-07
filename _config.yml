@@ -161,41 +161,40 @@ exclude:
 
 # Custom CSS for resume button and left align certs + education
 custom_css: |
-.btn {
-  background-color: #007ACC;
-  color: white !important;
-  padding: 10px 18px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
-}
-.btn:hover {
-  background-color: #005A99;
-}
+  .btn {
+    background-color: #007ACC;
+    color: white !important;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .btn:hover {
+    background-color: #005A99;
+  }
 
-/* Left align Education and Certifications */
-section.education, section.certifications {
-  text-align: left !important;
-}
-section.education .content,
-section.certifications .content {
-  text-align: left !important;
-}
+  /* Left align Education and Certifications */
+  section.education, section.certifications {
+    text-align: left !important;
+  }
+  section.education .content,
+  section.certifications .content {
+    text-align: left !important;
+  }
 
-/* Show descriptions properly under certifications */
-section.certifications .content > div > p {
-  margin-top: 0.4em;
-  margin-bottom: 1em;
-  font-size: 0.95em;
-  color: #444;
-}
+  /* Show descriptions properly under certifications */
+  section.certifications .content > div > p {
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+    font-size: 0.95em;
+    color: #444;
+  }
 
-/* Show descriptions properly under education */
-section.education .content > div > p {
-  margin-top: 0.4em;
-  margin-bottom: 1em;
-  font-size: 0.95em;
-  color: #444;
-  white-space: pre-wrap; /* preserves line breaks */
-}
-
+  /* Show descriptions properly under education */
+  section.education .content > div > p {
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+    font-size: 0.95em;
+    color: #444;
+    white-space: pre-wrap; /* preserves line breaks */
+  }
