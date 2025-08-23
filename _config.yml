@@ -33,7 +33,7 @@ content:
         title: "Download My Resume"
         description: |
           You can download my resume here:  
-          [Resume PDF](https://anjihub.github.io/anjelipancholi.github.io/Resume_Anjeli_Pancholi.pdf)
+          [Resume PDF](https://github.com/anjihub/anjelipancholi.github.io/raw/master/Resume%20-%20Anjeli%20Pancholi.pdf)
 
   - title: "Blog"
     layout: "list"
@@ -111,6 +111,11 @@ content:
         description: "Gained fundamental knowledge of networking principles, protocols, and architectures, laying the groundwork for advanced networking skills."
 
       - layout: "left"
+        title: "Splunk Certification"
+        caption: "Issued August 2025"
+        description: "Acquired hands-on experience with Splunk for data collection, analysis, and visualization, enabling effective monitoring, threat detection, and incident response in cybersecurity environments."
+
+      - layout: "left"
         title: "LinkedIn Learning Certificates"
         description: |
           - Change Management Foundations  
@@ -134,6 +139,9 @@ content:
           - Cisco  
           - JavaScript  
           - HTML  
+          - Splunk
+          - Mermaid
+          - Wireshark
 
 # Footer
 footer_show_references: true
