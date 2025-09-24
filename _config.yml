@@ -20,10 +20,10 @@ linkedin_username: "Anjeli Pancholi"
 
 # About Section
 about_content: |
-  I am Anjeli Pancholi, a dedicated computer science student specializing in cybersecurity and digital forensics.  
-  My passion for technology began at an early age and has driven me to pursue a career focused on protecting digital assets and supporting law enforcement efforts.  
-  I aim to leverage my technical expertise to contribute to cybersecurity initiatives, with a strong commitment to ethical practices and public safety.  
-  I am particularly interested in forensic analysis, ethical hacking, and developing innovative tools to safeguard information and infrastructure.
+  Cybersecurity & Digital Forensics student (4.0 GPA) with hands-on SOC monitoring, incident response, and forensic evidence analysis.  
+  Skilled in Python automation, Wireshark, OSForensics, FTK Imager, Autopsy, and Splunk.  
+  CCNA-trained with certifications in Python and Splunk.  
+  Seeking entry-level SOC Analyst or Forensics role to apply technical expertise in real-world investigations.
 
 content:
   - title: "Resume"
@@ -35,55 +35,35 @@ content:
           You can download my updated resume here:  
           [Resume PDF](https://github.com/anjihub/anjelipancholi.github.io/raw/master/Updated%20Resume%20-%20Anjeli%20Pancholi.pdf)
 
-  - title: "Blog"
+  - title: "Professional Links"
     layout: "list"
     content:
       - layout: "left"
-        title: "Visit My Blog"
+        title: "Relevant Links"
         description: |
-          Welcome to my cybersecurity blog where I share projects, certifications, and insights.  
-          Whether you're a fellow student, a recruiter, or just curious about cybersecurity, I hope you find something valuable here:  
-          [My Blog](https://anjeli.hashnode.dev/)
+          - [GitHub Portfolio](https://anjihub.github.io/anjelipancholi.github.io/)  
+          - [LinkedIn](https://www.linkedin.com/in/anjeli-pancholi-11280b272/)  
+          - [Blog](https://anjeli.hashnode.dev/)  
+          - [Stack Overflow](https://stackoverflow.com/users/31226648/anjeli-p)
 
-  - title: "Projects"
+  - title: "Skills"
     layout: "list"
     content:
       - layout: "left"
-        border: "weak"
-        title: "Learning to utilize Mermaid Diagrams"
-        link: "https://github.com/anjihub/mermaid-diagram"
-        link_text: "View Project on GitHub"
-        additional_links:
-          - title: "Github page for project"
-            icon: "fab fa-github"
-            url: "https://github.com/anjihub"
-        quote: >
-          Visualizing network security attack flows with Mermaid diagrams to simplify complex concepts.
+        title: "Skills & Technologies"
         description: |
-          This project uses Mermaid, a markdown-friendly diagram tool, to create clear and concise sequence diagrams illustrating a botnet attack scenario.
-          It helped me practice representing cybersecurity processes visually and enhanced my understanding of attack-defense interactions.
-
-  - title: "Experience"
-    layout: "list"
-    content:
-      - layout: "left"
-        title: "SOC Analyst Intern (Paid)"
-        sub_title: "Carolina Cyber Network – Montreat College Campus"
-        caption: "Sept 2025 – Present"
-        description: |
-          Participating in a structured, paid training program designed to build work-ready SOC analyst skills.  
-          Gaining hands-on exposure to commercial and open-source security tools for scanning, scripting, and penetration testing.  
-          Applying cybersecurity concepts daily, including log analysis, event monitoring, and vulnerability assessment.  
-          Shadowing experienced analysts to understand alert triage, escalation, and incident response workflows.  
-          Developing practical skills for entry-level roles in SOC operations and cyber defense.
+          - Forensics & IR: OSForensics, FTK Imager, Autopsy, chain-of-custody, incident response  
+          - Networking & Security: CCNA concepts, TCP/IP, routing/switching, Wireshark, SOC monitoring  
+          - Scripting & Automation: Python, Bash, PowerShell, Git/GitHub  
+          - Systems & Virtualization: Windows/Linux admin, VMware, cloud environments  
+          - Other Tools: Splunk, Ghost Framework (Android forensics), risk assessment
 
   - title: "Education"
     layout: "list"
     content:
       - layout: "left"
-        title: "Wake Technical Community College"
-        sub_title: "AAS, Cybersecurity"
-        caption: "Expected May 2026 | GPA: 4.0"
+        title: "Wake Technical Community College – Raleigh, NC"
+        sub_title: "AAS, Cybersecurity (Expected May 2026) | GPA: 4.0"
         description: |
           ● President’s List (Fall & Spring 2024)  
           ● Golden Leaf & NC Next Scholarships
@@ -94,3 +74,117 @@ content:
       - layout: "left"
         title: "Cisco CCNA: Introduction to Networks"
         caption: "Issued Mar 2025"
+        description: "Gained fundamental networking knowledge including TCP/IP, protocols, and architectures."
+
+      - layout: "left"
+        title: "Cisco CCNA: Switching, Routing & Wireless"
+        caption: "Issued May 2025"
+        description: "Mastered enterprise networking concepts, including switching, routing, and wireless technologies."
+
+      - layout: "left"
+        title: "IT Specialist: Python (Certiport)"
+        caption: "Issued May 2025"
+        description: "Demonstrated Python proficiency for automation, scripting, and problem-solving in IT contexts."
+
+      - layout: "left"
+        title: "Splunk Fundamentals"
+        caption: "Issued Aug 2025"
+        description: "Acquired hands-on experience with Splunk for data collection, monitoring, and threat analysis."
+
+  - title: "Experience"
+    layout: "list"
+    content:
+      - layout: "left"
+        title: "SOC Analyst Intern (Paid)"
+        sub_title: "Carolina Cyber Network – Montreat College Campus"
+        caption: "Sept 2025 – Present"
+        description: |
+          ● Participating in a structured, paid training program designed to build work-ready SOC analyst skills  
+          ● Gaining hands-on exposure to commercial and open-source security tools for scanning, scripting, and penetration testing  
+          ● Applying cybersecurity concepts daily, including log analysis, event monitoring, and vulnerability assessment  
+          ● Shadowing experienced analysts to understand alert triage, escalation, and incident response workflows  
+          ● Developing practical skills for entry-level roles in SOC operations and cyber defense
+
+  - title: "Projects"
+    layout: "list"
+    content:
+      - layout: "left"
+        title: "File System Forensics"
+        description: "Recovered and analyzed digital evidence using OSForensics & FTK Imager."
+      - layout: "left"
+        title: "Network Defense Labs"
+        description: "Configured routers/switches, implemented ACLs, and assessed vulnerabilities (CCNA labs)."
+      - layout: "left"
+        title: "Python & Bash Scripting"
+        description: "Automated log parsing, intrusion detection, and password hashing."
+      - layout: "left"
+        title: "Network Traffic Analysis"
+        description: "Captured/analyzed 10,000+ packets in lab; identified anomalies with Wireshark."
+      - layout: "left"
+        title: "Mobile Forensics"
+        description: "Used Ghost Framework & ADB to extract and analyze Android device data."
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: "sproogen/modern-resume-theme"
+
+sass:
+  sass_dir: "_sass"
+  style: "compressed"
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+  - "lib/"
+  - "scripts/"
+  - "docker-compose.yml"
+
+# Custom CSS for resume button and left align certs + education
+custom_css: |
+  .btn {
+    background-color: #007ACC;
+    color: white !important;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .btn:hover {
+    background-color: #005A99;
+  }
+
+  /* Left align Education and Certifications */
+  section.education, section.certifications {
+    text-align: left !important;
+  }
+  section.education .content,
+  section.certifications .content {
+    text-align: left !important;
+  }
+
+  /* Show descriptions properly under certifications */
+  section.certifications .content > div > p {
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+    font-size: 0.95em;
+    color: #444;
+  }
+
+  /* Show descriptions properly under education */
+  section.education .content > div > p {
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+    font-size: 0.95em;
+    color: #444;
+    white-space: pre-wrap; /* preserves line breaks */
+  }
