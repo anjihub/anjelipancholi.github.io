@@ -74,7 +74,7 @@ content:
       - layout: "left"
         title: "Cisco CCNA: Introduction to Networks"
         caption: "Issued Mar 2025"
-        description: "Gained fundamental networking knowledge including TCP/IP, protocols, and architectures."
+        description: "Fundamental networking knowledge including TCP/IP, protocols, and architectures."
 
       - layout: "left"
         title: "Cisco CCNA: Switching, Routing & Wireless"
@@ -111,15 +111,19 @@ content:
       - layout: "left"
         title: "File System Forensics"
         description: "Recovered and analyzed digital evidence using OSForensics & FTK Imager."
+
       - layout: "left"
         title: "Network Defense Labs"
         description: "Configured routers/switches, implemented ACLs, and assessed vulnerabilities (CCNA labs)."
+
       - layout: "left"
         title: "Python & Bash Scripting"
         description: "Automated log parsing, intrusion detection, and password hashing."
+
       - layout: "left"
         title: "Network Traffic Analysis"
         description: "Captured/analyzed 10,000+ packets in lab; identified anomalies with Wireshark."
+
       - layout: "left"
         title: "Mobile Forensics"
         description: "Used Ghost Framework & ADB to extract and analyze Android device data."
