@@ -109,6 +109,15 @@ content:
     layout: "list"
     content:
       - layout: "left"
+        title: "Learning to Utilize Mermaid Diagrams"
+        link: "https://github.com/anjihub/mermaid-diagram"
+        link_text: "View Project on GitHub"
+        description: |
+          Visualizing network security attack flows with Mermaid diagrams to simplify complex concepts.  
+          This project uses Mermaid, a markdown-friendly diagram tool, to create clear and concise sequence diagrams illustrating a botnet attack scenario.  
+          It helped me practice representing cybersecurity processes visually and enhanced my understanding of attack-defense interactions.
+
+      - layout: "left"
         title: "File System Forensics"
         description: "Recovered and analyzed digital evidence using OSForensics & FTK Imager."
 
