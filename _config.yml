@@ -58,17 +58,17 @@ content:
           - Scripting & Automation: Python, Bash, PowerShell, Git/GitHub  
           - Systems & Virtualization: Windows/Linux admin, VMware, cloud environments  
           - Other Tools: Splunk, Ghost Framework (Android forensics), risk assessment
-
-- title: "Education"
-  layout: "list"
-  content:
-    - layout: "left"
-      title: "Wake Technical Community College – Raleigh, NC"
-      sub_title: "AAS, Cybersecurity (Expected May 2026) | GPA: 4.0"
-      description: |
-        ● President’s List (Fall & Spring 2024)  
-        ● Golden Leaf Scholarship (Fall 2024)  
-        ● NC Next Scholarship (Fall 2024, Spring 2024, Summer 2025)
+          
+  - title: "Education"
+    layout: "list"
+    content:
+      - layout: "left"
+        title: "Wake Technical Community College – Raleigh, NC"
+        sub_title: "AAS, Cybersecurity (Expected May 2026) | GPA: 4.0"
+        description: |
+          ● President’s List (Fall & Spring 2024)  
+          ● Golden Leaf Scholarship (Fall 2024)  
+          ● NC Next Scholarship (Fall 2024, Spring 2024, Summer 2025)
 
   - title: "Certifications"
     layout: "list"
